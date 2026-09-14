@@ -3,7 +3,7 @@ message: "If you use BCChampion, please cite this software and the associated qu
 title: "BCChampion: Blood Culture Quality Improvement Dashboard"
 type: software
 version: 1.0.0
-DOI 10.5281/zenodo.22753805
+doi:10.5281/zenodo.22753805
 date-released: 2026-09-14
 authors:
   - family-names: Abdelrahman
