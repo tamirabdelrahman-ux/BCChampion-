@@ -7,9 +7,9 @@ date-released: 2026-09-14
 authors:
   - family-names: Abdelrahman
     given-names: Tamir T
-  - family-names: Naseem
-    given-names: Mudasser
-repository-code: "https://github.com/YOUR-GITHUB-USERNAME/BCChampion"
+  - family-names: Abdelrahman
+    given-names: Myriam T
+repository-code: "https://github.com/tamirabdelrahman-ux/BCChampion"
 license: "MIT"
 keywords:
   - blood culture
