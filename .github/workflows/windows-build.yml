@@ -1,0 +1,29 @@
+name: Build Windows desktop release
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v*']
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --upgrade pip
+      - run: pip install -r requirements.txt pyinstaller
+      - run: pyinstaller --clean BCChampion.spec
+      - run: pyinstaller --clean BCChampion_Stop.spec
+      - name: Package release
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force release | Out-Null
+          Copy-Item dist\BCChampion.exe release\BCChampion.exe
+          Copy-Item dist\BCChampion_Stop.exe release\BCChampion_Stop.exe
+          Copy-Item README.md,CITATION.cff,LICENSE.txt,CHANGELOG.md release\
+          Compress-Archive -Path release\* -DestinationPath BCChampion-Windows-v1.0.0.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: BCChampion-Windows-v1.0.0
+          path: BCChampion-Windows-v1.0.0.zip
