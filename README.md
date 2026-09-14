@@ -5,6 +5,7 @@
 ## Publication release
 Version: **1.0.0**  
 Release type: publication-safe desktop/reference implementation.
+10.5281/zenodo.22753805
 
 ## Core rule
 A blood-culture bottle is considered compliant when the estimated volume is **≥5 mL**. Bottles with volume **>10 mL** are additionally counted as overfilled.
