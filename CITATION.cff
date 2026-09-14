@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use BCChampion, please cite this software and the associated quality-improvement report."
+title: "BCChampion: Blood Culture Quality Improvement Dashboard"
+type: software
+version: 1.0.0
+date-released: 2026-09-14
+authors:
+  - family-names: Abdelrahman
+    given-names: Tamir T
+  - family-names: Naseem
+    given-names: Mudasser
+repository-code: "https://github.com/YOUR-GITHUB-USERNAME/BCChampion"
+license: "MIT"
+keywords:
+  - blood culture
+  - quality improvement
+  - diagnostic stewardship
+  - PDSA
+  - microbiology

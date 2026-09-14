@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
+*.spec
+*.sqlite3
+trial_data/
+data/
+*.xlsx
+*.xls
+!sample_data/*.xlsx

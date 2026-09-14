@@ -1,0 +1,42 @@
+BCChampion Windows Desktop Release v1.0.0
+
+This is the public open-source desktop release. It runs locally at
+http://127.0.0.1:8790 and uses its own data folder:
+  %LOCALAPPDATA%\BCChampion
+
+FIRST TIME ONLY
+1. Extract this ZIP to a normal folder, for example:
+   Desktop\BCChampion_v1.0.0
+2. Double-click SETUP_BCCHAMPION.bat.
+3. Wait until SETUP COMPLETE appears.
+
+TO RUN
+Double-click RUN_BCCHAMPION.bat.
+It should open automatically at:
+http://127.0.0.1:8790
+
+HOW TO CONFIRM YOU HAVE THE NEW VERSION
+At the top you should see:
+  BCChampion
+  Blood Culture Quality Improvement Dashboard
+At the bottom you should see:
+  BCChampion v1.0.0 · Local desktop edition
+
+FIRST TEST
+Use only:
+- sample_data\Synthetic_VIRTUO_1.xlsx
+- sample_data\Synthetic_VIRTUO_2.xlsx
+- sample_data\Synthetic_ICIS.xlsx
+
+TO STOP
+Double-click STOP_BCCHAMPION.bat.
+
+IMPORTANT
+Do not use patient-identifiable or institution-confidential data unless use has been approved under local governance requirements.
+
+IF YOU SEE AN ERROR PAGE
+Double-click OPEN_ERROR_LOG_FOLDER.bat.
+Look for BCChampion_error.log and send that file (or a screenshot of it).
+
+RELEASE NOTE
+Version 1.0.0 is the first publication-ready open-source release.
